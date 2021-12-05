@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Template Bootstrap</title>
+    <!-- File Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- CSS tùy chỉnh của bạn ở dưới này -->
+</head>
+
+<body>
+		<div class="anh" align="center" style="padding-top:  50px; border-radius: 50px/40px;">
+					<img src="s.jpg" width="300px"></div>
+				<div align="center">
+				<h1>Hình Thức Thanh Toán </h1>
+				</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8"> 
+			<form>
+			
+				<h3>Địa chỉ thanh toán</h3>
+				<div class="row" style="padding-top:  20px">
+					<div class="col">
+						<label>Tên đầu tiên</label>
+						<input type="text" class="form-control" required>
+					</div>	
+					<div class="col">
+						<label>Họ</label>
+						<input type="text" class="form-control" required>
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label style="padding-top:  20px">Tên tài khoản</label>
+					<input type="text" class="form-control" placeholder="tên tài khoản" required>
+				
+					
+					<label style="padding-top:  20px"><b>Email</b> (tùy chọn)</label>
+					<input type="email" class="form-control" placeholder="you@example.com" required>
+					
+					<label style="padding-top:  20px"><b>Địa chỉ nhà</b></label>
+					<input type="email" class="form-control" placeholder="1234 Main St" required>
+					
+					
+					<label style="padding-top:  20px"><b>Địa chỉ 2</b> (tùy chọn)</label>
+					<input type="email" class="form-control" placeholder="Căn hộ hoặc phòng" required>
+				</div>
+				<div class="row" style="padding-top:  20px">
+					<div class="col">
+						<label><b>Quốc gia</b></label>
+						<select class="form-control">
+							<option selected>Chọn...</option>
+							<option>Việt Nam</option>
+							<option>Thái Lan</option>
+					
+						</select>
+					</div>
+					
+					<div class="col">
+						<label><b>Thành phố</b></label>
+						<select class="form-control">
+							<option selected>Chọn...</option>
+							<option>Hà Nội</option>
+							<option>Thái Bình</option>
+					
+						</select>
+					</div>
+					
+					<div class="col">
+						<label> <b> Zip</b></label>
+						<input type="text" class="form-control">
+					</div>
+					</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				<div style="padding-top:  25px">
+				
+				<hr >
+				</div>
+				
+				<div class="form-group" style="padding-top:  25px">
+					<div class="col">
+						<input type="checkbox" >
+						<label>Địa chỉ giao hàng giống với dịa chỉ thanh toán của tôi</label>
+				
+					</div>
+					<div class="col">
+						<input type="checkbox"  >
+						<label>Lưu thông tin nay cho lần
+						sau</label>
+					</div>
+				</div>
+				<hr>
+				
+				<div class="form-group">
+					<div><b style="padding-top:  20px">Thanh toán</b></div>
+					<div class="col" style="padding-top:  20px">
+						
+					<input type="radio" name="tt">
+						<label>Thẻ tín dụng</label>
+					</div>
+				
+					
+					<div class="col">
+					<input type="radio" name="tt">
+						<label>Thẻ ghi nợ</label>
+					</div>
+					
+					<div class="col">
+					<input type="radio" name="tt">
+						<label>Paypal</label>
+					</div>
+				
+				</div>
+				<div class="form-group">
+				<div class="row">
+					<div class="col">
+					<label>Tên thẻ trang</label>
+					<input type="text" class="form-control"> tên đầy đủ hiển thị trên thẻ
+					</div>
+					
+					<div class="col">
+					<label>Số thẻ tín dụng</label>
+					<input type="text" class="form-control"> 
+					</div>
+				</div>
+				
+				</div>
+				<div class="col-md-6">
+					<form>
+				<div class="row">
+					<div class="col">
+						<label>Hết hạn</label>
+						<input type="text" class="form-control">
+					</div>
+					
+					<div class="col">
+						<label>CVV</label>
+						<input type="text" class="form-control">
+					
+					</div>
+					
+					</div>
+				</form>
+				</div>
+				<div style="padding-top:  25px">
+				
+				<hr >
+				</div>
+				
+				<div class="row" style="padding-top:  25px">
+					<input type="submit" name="tt" class="form-control" value="Tiếp tục thanh toán" style="background: #1258B9; color: aliceblue; font-size: 20px;">
+				
+				</div>
+				
+				
+			</form>
+			
+			</div>
+			
+			<div class="col-md-4">
+			<form>
+				<h3>Giỏ hàng của bạn<span style="float: right; border-radius: 50px/40px; font-weight: bold; font-size: 25px; color: aliceblue; background: #857E7E; width:30px; text-align: center;
+           ">3</span></h3>
+				<table class="table table-bordered table-hover">
+				
+					<tr >
+						<td> <span style="font-weight: bold">Tên Sản Phẩm</span> <span style=" float: right; height: 50px; line-height: 50px; color: #BDB4B5">$2</span><br ><span style="color: #BDB4B5">Mô tả ngắn gọn </span></td>
+					</tr>
+					<tr >
+						<td> <span style="font-weight: bold">Sản phẩm thứ hai</span> <span style=" float: right; height: 50px; line-height: 50px; color: #BDB4B5">$2</span><br ><span style="color: #BDB4B5">Mô tả ngắn gọn </span></td>
+					</tr>
+					
+					<tr >
+						<td> <span style="font-weight: bold">Mặt hàng thứ ba</span> <span style=" float: right; height: 50px; line-height: 50px; color: #BDB4B5">$2</span><br ><span style="color: #BDB4B5">Mô tả ngắn gọn </span></td>
+					</tr>
+					
+					<tr >
+						<td bgcolor="#F2F2F2"> <span style="font-weight: bold; color: #13A347">Mã khuyến mại</span> <span style=" float: right; height: 50px; line-height: 50px; color: #13A347">-$2</span><br ><span style="color: #13A347">VÍ DỤ </span></td>
+					</tr>
+					
+					<tr >
+						<td> <span style="font-weight: bold">Tổng (USD)</span> <span style=" float: right; color: #BDB4B5">$2</span></td>
+					</tr>
+					
+				
+			
+				</table>
+				<table class="table table-bordered">
+					<div class="row">
+				<tr>
+					<td ><input type="text" class="form-control" placeholder="Mã khuyến mại" required width="50px">
+					
+						<input type="submit"  name="chuoclai" value="chuộc lại"  ></td>
+			</tr>
+				</div>
+				</table>
+			</form>
+			</div>
+		</div>
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+ <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
